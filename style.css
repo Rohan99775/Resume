@@ -1,0 +1,114 @@
+.main-content {
+  display: grid;
+  grid-template-columns: 300px 700px;
+  min-height: 1000px;
+}
+.left-section {
+  grid-template-columns: 300px;
+  background-color: rgb(39, 38, 38);
+}
+.rigth-section {
+  grid-template-columns: 90%;
+  background-color: rgb(225, 231, 231);
+}
+.left-content{
+ padding: 1rem;
+}
+.profile-details{
+
+}
+.profile-image{
+ text-align: center;
+ margin: auto;
+}
+img{
+ border: 5px white solid;
+ border-radius: 30%;
+ width: 60%;
+ height: auto;
+ max-width: 100%;
+}
+.name{
+ color: whitesmoke;
+ font-size: 1.2rem;
+ font-weight: 700;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 0.02px;
+ padding: 0.8rem;
+ font-family: sans-serif;
+}
+.designation{
+ font-size: 1rem;
+ text-align: center;
+ text-transform: uppercase;
+ padding-bottom: 0.5rem;
+ color: whitesmoke;
+ border-bottom: 2px rgb(225, 231, 231);
+}
+.description{
+ color: whitesmoke;
+ font-size: 0.75rem;
+ text-align: center;
+ /* text-transform: uppercase; */
+ padding-bottom: 1rem;
+}
+.icon{
+ display: flex;
+ padding: 1rem;
+ text-align: center;
+ justify-content: space-evenly;
+ /* background-color: rgb(225, 231, 231); */
+}
+.contact-item{
+ border-bottom: 1px solid rgb(225, 231, 231);
+}
+.contact{
+ padding: 1rem;
+ color: whitesmoke;
+ font-size: 00.75rem;
+ /* line-height: 1.5rem; */
+}
+.i{
+ padding: 0.5rem;
+}
+.skills{
+ color: whitesmoke;
+ font-size: 00.75rem;
+ text-align: center;
+ text-transform: uppercase;
+ padding: 1rem 0.5rem;
+ font-weight: 700;
+}
+.skill-name{
+ color: whitesmoke;
+ font-size: 0.65rem;
+ font-weight: 0.65rem;
+ padding: 0.5rem 0.5rem;
+ text-align: left;
+}
+.progress-bar{
+ border: 1px white solid;
+ height: 4px;
+ border-radius: 4px;
+}    
+.progress-bar-inner{
+ background-color: lightblue;
+ height: 100%;
+ border-radius: 4px;
+}
+.right-main-content{
+  padding: 2rem 3rem;
+}
+.right-title{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+@media(max-width:674px){
+  .main-content{
+    grid-template-columns:repeat(1,1fr);
+  }
+}
